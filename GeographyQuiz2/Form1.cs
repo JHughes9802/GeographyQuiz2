@@ -81,8 +81,8 @@ namespace GeographyQuiz2
                     "Quiz Over!");
             }
 
-            /* This formatting works fine since it's a short quiz, but it'd need to be
-             * changed when there's more than 5 questions */
+            /* This formatting works fine since it's a short quiz, but it'd need to be changed when
+             * there's more than 5 questions because the message box could get cut off */
             else
             {
                 string incorrectAnswers = IncorrectAnswersBuilder.ToString();
